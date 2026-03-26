@@ -1,0 +1,137 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+}
+
+/* ROOT */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* APP */
+.app-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* TITLE */
+.page-title {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 40px 0 20px;
+  text-align: center;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 420px;
+  padding: 0 15px;
+  margin: 0 auto;
+  flex: 1; /* 🔥 footer fix */
+}
+
+/* CARD */
+.card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  width: 100%;
+}
+
+/* INPUT */
+.input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102,126,234,0.2);
+}
+
+/* BUTTON */
+.btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* QR */
+.qr-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* LIST */
+.attendance-list {
+  text-align: center;
+}
+
+.attendance-list h2 {
+  margin-bottom: 10px;
+}
+
+/* toplam kişi */
+.total-count {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* liste */
+.attendance-list ol {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.attendance-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* FOOTER */
+footer.footer {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  background: #61328f;
+  color: #fff;
+  font-size: 14px;
+}

@@ -1,0 +1,36 @@
+# Node.js genel
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.env.local
+.env.*.local
+
+# Build klasörleri
+dist/
+build/
+.out/
+.next/
+.vite/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# IDE / editör
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Log dosyaları
+logs/
+*.log
+
+# Frontend cache
+.cache/
+.pnp/
+.pnp.js
