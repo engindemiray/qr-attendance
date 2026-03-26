@@ -31,3 +31,42 @@
 | Package Manager | npm                                                                   |
 | Database        | MongoDB, Mongoose                                                     |
 
+## Installation (Local Development)
+
+Clone the repository:
+``` bash
+$ git clone https://github.com/engindemiray/qr-attendance.git
+```
+
+### Backend
+
+Install npm packages:
+``` bash
+$ cd qr-attendance-backend
+npm install
+```
+
+Create a `.env` file and add the MongoDB URI and port number:
+``` env
+PORT=5050
+MONGO_URI=mongodb://localhost:27017/qr-attendance
+```
+
+Run the backend:
+``` bash
+$ node server.js
+```
+
+### Frontend
+
+Install npm packages:
+``` bash
+$ cd qr-attendance-frontend
+npm install
+```
+Run the app:
+``` bash
+$ npm start
+```
+
+The app runs on http://localhost:3000
