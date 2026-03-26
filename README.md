@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" height="200" alt="qr_icon" src="https://github.com/user-attachments/assets/b119bc8a-f9c3-429b-b758-a631684e741a" />
+  <img width="200" height="200" alt="qr_icon" src="logo.png" />
 </p>
 
 <h1 align="center">QR Attendance</h1>
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img width="2048" height="1292" alt="screenshot" src="https://github.com/user-attachments/assets/cb24328f-7849-4e77-9228-81e5fd367496" />
+  <img width="2048" height="1292" alt="screenshot" src="screenshot.png" />
 </p>
 
 ---
