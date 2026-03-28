@@ -70,3 +70,54 @@ $ npm start
 ```
 
 The app runs on http://localhost:3000
+
+## Project Structure
+
+```
+qr-attendance/
+├── qr-attendance-backend/
+│   ├── models/                      # Database models (MongoDB schemas)
+│   │   ├── Attendance.js            # Defines attendance data structure
+│   │   └── Session.js               # Defines session (class/lecture) structure
+│   ├── node_modules/                # Backend dependencies
+│   ├── routes/                      # API route definitions
+│   │   ├── attendanceRoutes.js      # Handles attendance-related API endpoints
+│   │   └── sessionRoutes.js         # Handles session-related API endpoints
+│   ├── .env                         # Environment variables (PORT, MONGO_URI, etc.)
+│   ├── package-lock.json            # Locked versions of dependencies
+│   ├── package.json                 # Backend project configuration and dependencies
+│   └── server.js                    # Main Express server setup and entry point
+├── qr-attendance-frontend/
+│   ├── node_modules/                # Frontend dependencies
+│   ├── public/                      # Static assets (HTML, icons, etc.)
+│   ├── src/                         # Source code of the React application
+│   │   ├── pages/                   # Application pages
+│   │   │   ├── StudentScanner.jsx   # QR scanning interface for students
+│   │   │   └── TeacherPanel.jsx     # Teacher dashboard for attendance management
+│   │   ├── api.js                   # Handles API requests to backend
+│   │   ├── App.css                  # Main application styles
+│   │   ├── App.js                   # Root React component
+│   │   ├── App.test.js              # Test file for App component
+│   │   ├── Footer.css               # Footer component styles
+│   │   ├── Footer.js                # Footer component
+│   │   ├── index.css                # Global styles
+│   │   ├── index.js                 # React application entry point
+│   │   ├── logo.svg                 # Logo asset
+│   │   ├── reportWebVitals.js       # Performance measuring utility
+│   │   ├── setupTests.js            # Test configuration
+│   │   └── StudentCheckIn.js        # Handles student check-in logic
+│   ├── .gitignore                   # Files to ignore in frontend
+│   ├── package-lock.json            # Locked dependency versions
+│   └── package.json                 # Frontend project configuration
+└── .gitignore                       # Root-level ignored files
+```
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+  <sub>Special thanks to <a href="https://github.com/handedalcali">Hande Nur Dalcalı</a>&nbsp;❤️</sub>
+</div>
